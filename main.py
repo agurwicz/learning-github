@@ -1,4 +1,4 @@
-def greet_user(username):
-  print('Hi {}!'format(username))
+def greet_user(greeting, username):
+  print('{greeting} {username}!'format(greeting=greeting, username=username))
 
-greet_user(username='Allan')
+greet_user(greeting='Hi!', username='Allan')
